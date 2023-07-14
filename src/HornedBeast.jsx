@@ -5,10 +5,10 @@ class HornedBeast extends React.Component {
     return (
       <div>
         {/* TODO: Make this component dynamic */}
-        <h2>Replace with Title</h2>
+        <h2>{this.props.title}</h2>
         {/* TODO: Add the image content */}
-        {/* <img/> */}
-        <p>Replace with description</p>
+        <img src={this.props.image_url} alt={this.props.title} />
+        <p>{this.props.description}</p>
       </div>
     );
   }
