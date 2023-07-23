@@ -147,7 +147,9 @@ Why are we implementing this feature?
 What are we going to implement?
 
 > Given that a user opens the application in the browser
+>
 > When a user clicks on an item other than the horned beasts, such as the title of the page or the footer,
+>
 > Then the information and styles should change.
 
 How are we implementing it?
