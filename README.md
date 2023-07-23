@@ -74,11 +74,11 @@ Number and name of feature: Feature #1: Display Images
 
 Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 12:00pm EST
 
-Finish time: 
+Finish time: 12:30pm EST
 
-Actual time needed to complete: 
+Actual time needed to complete: 30 minutes
 
 #### Feature #2: Allow Users to Favorite Individual Beasts
 
@@ -104,11 +104,11 @@ Number and name of feature: Feature #2: Allow Users to Favorite Individual Beast
 
 Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 6:30pm EST
 
-Finish time: 
+Finish time: 7:00pm EST
 
-Actual time needed to complete:
+Actual time needed to complete: Thirty minutes
 
 #### Feature 3: Bootstrap
 
@@ -132,11 +132,11 @@ Number and name of feature: Feature 3: Bootstrap
 
 Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 6:00pm EST
 
-Finish time: 
+Finish time: 6:30pm EST
 
-Actual time needed to complete:
+Actual time needed to complete: Thirty minutes
 
 #### Stretch Goal: Add Interaction
 
@@ -160,7 +160,7 @@ How are we implementing it?
 
 Number and name of feature: Stretch Goal: Add Interaction
 
-Estimate of time needed to complete: 1 hour
+Estimate of time needed to complete:
 
 Start time: 
 
