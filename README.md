@@ -104,7 +104,7 @@ Number and name of feature: Feature #2: Allow Users to Favorite Individual Beast
 
 Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 6:30pm EST
 
 Finish time: 
 
