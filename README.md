@@ -76,9 +76,9 @@ Estimate of time needed to complete: 1 hour
 
 Start time: 12:00pm EST
 
-Finish time:  
+Finish time: 12:30 EST
 
-Actual time needed to complete: 
+Actual time needed to complete: 30 minutes
 
 #### Feature #2: Allow Users to Favorite Individual Beasts
 
