@@ -106,9 +106,9 @@ Estimate of time needed to complete: 1 hour
 
 Start time: 6:30pm EST
 
-Finish time: 
+Finish time: 7:00pm EST
 
-Actual time needed to complete: 
+Actual time needed to complete: Thirty minutes
 
 #### Feature 3: Bootstrap
 
@@ -160,7 +160,7 @@ How are we implementing it?
 
 Number and name of feature: Stretch Goal: Add Interaction
 
-Estimate of time needed to complete: 1 hour
+Estimate of time needed to complete:
 
 Start time: 
 
