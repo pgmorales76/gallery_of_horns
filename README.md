@@ -128,6 +128,44 @@ How are we implementing it?
 
 - Bring in the `react-bootstrap` library and use it to style your application making sure that it is responsive.
 
+Number and name of feature: Feature 3: Bootstrap
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete:
+
+#### Stretch Goal: Add Interaction
+
+Why are we implementing this feature?
+
+- As a user, I want to be able to interact with each item on the page.
+
+What are we going to implement?
+
+> Given that a user opens the application in the browser
+> When a user clicks on an item other than the horned beasts, such as the title of the page or the footer,
+> Then the information and styles should change.
+
+How are we implementing it?
+
+- When the user clicks on elements such as the header, footer or title of page, make something change using state.
+
+- You can update the words, change the styles or add something new. Be creative.
+
+Number and name of feature: Stretch Goal: Add Interaction
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete:
+
 ## Collaborators
 
 [pgmorales76](https://github.com/pgmorales76)
