@@ -46,6 +46,8 @@ Any environment configuration steps.
 
 ### Languages & tools
 
+HTML, CSS, JavaScript, Markdown, React, Vite, Git, GitHub, and VS Code.
+
 ## Change Log
 
 ### Lab: Class 02
