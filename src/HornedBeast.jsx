@@ -10,7 +10,7 @@ class HornedBeast extends React.Component {
   }
 
   increment_favorites= () => {
-    this.setState({favorites: this.favorites + 1})
+    this.setState({favorites: this.state.favorites + 1})
   }
 
   render() {
