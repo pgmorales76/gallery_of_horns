@@ -65,7 +65,8 @@ What are we going to implement?
 > Then the photo gallery should display all of the beasts' images in the gallery.
 
 How are we implementing it?
-> The `Gallery` component should pass props for the title, image and description to each `HornedBeast` component. You will find this information in the provided JSON file.
+
+- The `Gallery` component should pass props for the title, image and description to each `HornedBeast` component. You will find this information in the provided JSON file.
 
 Number and name of feature: Feature #1: Display Images
 
@@ -76,6 +77,34 @@ Start time:
 Finish time: 
 
 Actual time needed to complete: 
+
+#### Feature #2: Allow Users to Favorite Individual Beasts
+
+Why are we implementing this feature?
+
+- As a user, I want to be able to interact with the site and favorite beasts.
+
+What are we going to implement?
+
+> Given that a user opens the application in the browser
+> When a user clicks on an image of a beast
+> Then the number of "Favorites" displayed on that beast will increase by one.
+
+How are we implementing it?
+
+- Create state inside of the `HornedBeast` component that keeps track of the number of times each beast has been favorited.
+
+- Put a heart in each `HornedBeast` component with the number of “Favorites” next to it.
+
+Number and name of feature: Feature #2: Allow Users to Favorite Individual Beasts
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete:
 
 ## Collaborators
 
