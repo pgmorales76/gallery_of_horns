@@ -104,7 +104,7 @@ Number and name of feature: Feature #2: Allow Users to Favorite Individual Beast
 
 Estimate of time needed to complete: 1 hour
 
-Start time: 12:30pm EST
+Start time: 
 
 Finish time: 
 
@@ -132,9 +132,9 @@ Number and name of feature: Feature 3: Bootstrap
 
 Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 6:00pm EST
 
-Finish time: 
+Finish time: 6:30pm EST
 
 Actual time needed to complete:
 
