@@ -48,6 +48,23 @@ Any environment configuration steps.
 
 ## Change Log
 
+## Lab: Class 02
+
+### Feature #1: Display Images
+
+Why are we implementing this feature?
+
+- As a user, I want to view the images on the page so that I can browse the photo collection.
+
+What are we going to implement?
+
+> Given that a user opens the application in the browser
+> When the user navigates to the home page
+> Then the photo gallery should display all of the beasts' images in the gallery.
+
+How are we implementing it?
+> The `Gallery` component should pass props for the title, image and description to each `HornedBeast` component. You will find this information in the provided JSON file.
+
 ## Collaborators
 
 [pgmorales76](https://github.com/pgmorales76)
