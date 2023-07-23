@@ -74,9 +74,9 @@ Number and name of feature: Feature #1: Display Images
 
 Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 12:00pm EST
 
-Finish time: 
+Finish time:  
 
 Actual time needed to complete: 
 
