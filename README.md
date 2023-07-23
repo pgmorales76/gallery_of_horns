@@ -48,9 +48,9 @@ Any environment configuration steps.
 
 ## Change Log
 
-## Lab: Class 02
+### Lab: Class 02
 
-### Feature #1: Display Images
+#### Feature #1: Display Images
 
 Why are we implementing this feature?
 
@@ -64,6 +64,16 @@ What are we going to implement?
 
 How are we implementing it?
 > The `Gallery` component should pass props for the title, image and description to each `HornedBeast` component. You will find this information in the provided JSON file.
+
+Number and name of feature: Feature #1: Display Images
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
 
 ## Collaborators
 
