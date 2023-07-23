@@ -61,7 +61,9 @@ Why are we implementing this feature?
 What are we going to implement?
 
 > Given that a user opens the application in the browser
+>
 > When the user navigates to the home page
+>
 > Then the photo gallery should display all of the beasts' images in the gallery.
 
 How are we implementing it?
@@ -87,7 +89,9 @@ Why are we implementing this feature?
 What are we going to implement?
 
 > Given that a user opens the application in the browser
+>
 > When a user clicks on an image of a beast
+>
 > Then the number of "Favorites" displayed on that beast will increase by one.
 
 How are we implementing it?
@@ -115,14 +119,14 @@ Why are we implementing this feature?
 What are we going to implement?
 
 > Given that a user opens the application in the browser
+>
 > When the images are displayed on the screen
+>
 > Then each image should be rendered in a visually pleasing way: in columns, as screen width allows.
 
 How are we implementing it?
 
 - Bring in the `react-bootstrap` library and use it to style your application making sure that it is responsive.
-
-
 
 ## Collaborators
 
