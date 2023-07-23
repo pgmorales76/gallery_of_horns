@@ -108,7 +108,7 @@ Start time: 6:30pm EST
 
 Finish time: 
 
-Actual time needed to complete:
+Actual time needed to complete: 
 
 #### Feature 3: Bootstrap
 
@@ -136,7 +136,7 @@ Start time: 6:00pm EST
 
 Finish time: 6:30pm EST
 
-Actual time needed to complete:
+Actual time needed to complete: Thirty minutes
 
 #### Stretch Goal: Add Interaction
 
