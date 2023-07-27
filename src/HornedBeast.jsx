@@ -13,10 +13,14 @@ class HornedBeast extends React.Component {
     this.setState({ favorites: this.state.favorites + 1 });
   };
 
+  selected_beast_handler = () => {
+    this.props.set_selected_beast(this.props.beast);
+  };
+
   render() {
     return (
       <Col className="d-flex">
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "18rem" }} onClick={this.selected_beast_handler}>
           <Card.Img
             onClick={this.increment_favorites}
             variant="top"
