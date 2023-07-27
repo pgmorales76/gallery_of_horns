@@ -20,7 +20,7 @@ class Home extends React.Component {
           </Row>
         </Container>
       </main>
-    );
+    ); 
   }
 }
 
