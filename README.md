@@ -168,7 +168,7 @@ Finish time:
 
 Actual time needed to complete:
 
-### Lab: Class 02
+### Lab: Class 03
 
 #### Feature #1: Display a Modal
 
