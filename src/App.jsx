@@ -9,7 +9,7 @@ class App extends React.Component {
     return (
       <>
         <Header />
-        <Home beast_data={beast_data}/>
+        <Home beast_data={beast_data} />
         <Footer />
       </>
     );
