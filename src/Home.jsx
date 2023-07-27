@@ -5,18 +5,16 @@ class Home extends React.Component {
   render() {
     return (
       <>
-        {
-          this.props.beast_data.map((beast, idx) =>
-          <HornedBeast 
+        {this.props.beast_data.map((beast, idx) => (
+          <HornedBeast
             key={idx}
             title={beast.title}
             image_url={beast.image_url}
             description={beast.description}
           />
-          )
-        }
+        ))}
       </>
-    )
+    );
   }
 }
 
