@@ -14,6 +14,7 @@ class Home extends React.Component {
               image_url={beast.image_url}
               description={beast.description}
               beast={beast}
+              set_selected_beast={this.props.set_selected_beast}
             />
           ))}
         </Row>
