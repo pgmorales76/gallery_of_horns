@@ -1,14 +1,15 @@
 import React from "react";
 import Header from "./Header";
-import Home from "./Home";
 import Footer from "./Footer";
+import beast_data from "./beast_data.json";
+import Home from "./Home";
 
 class App extends React.Component {
   render() {
     return (
       <>
         <Header />
-        <Home />
+        <Home beast_data={beast_data}/>
         <Footer />
       </>
     );
