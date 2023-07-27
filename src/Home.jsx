@@ -13,6 +13,7 @@ class Home extends React.Component {
               title={beast.title}
               image_url={beast.image_url}
               description={beast.description}
+              beast={beast}
             />
           ))}
         </Row>
