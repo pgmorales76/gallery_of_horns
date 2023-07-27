@@ -168,6 +168,44 @@ Finish time:
 
 Actual time needed to complete:
 
+### Lab: Class 02
+
+#### Feature #1: Display a Modal
+
+Why are we implementing this feature?
+
+- As a user, I want the image to be displayed in a larger size and with the description shown so that I can view the details of a single image.
+
+What are we going to implement?
+
+> Given that a user wants to view the details of the image
+>
+> When the user clicks on an individual image
+>
+> Then the image should render larger on the screen with the description displayed
+
+How are we implementing it?
+
+- Import the `data.json` file into your `App` component and send that data into the `Gallery` component
+
+- Map over the JSON data in your `Gallery` component to render each beast
+
+- Send a function into your `Gallery` component that allows the user to update state in the `App`
+
+- Create a `SelectedBeast` component and include it in your `App`
+
+- Use the state in the `App` to render an individual beast in a Modal in the `SelectedBeast` component using React Bootstrap
+
+Number and name of feature: Feature #1: Display a Modal
+
+Estimate of time needed to complete: Thirty minutes
+
+Start time: 9:30pm EST
+
+Finish time:
+
+Actual time needed to complete:
+
 ## Collaborators
 
 [pgmorales76](https://github.com/pgmorales76)
