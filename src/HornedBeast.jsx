@@ -9,15 +9,20 @@ class HornedBeast extends React.Component {
     };
   }
 
-  increment_favorites= () => {
-    this.setState({favorites: this.state.favorites + 1})
-  }
+  increment_favorites = () => {
+    this.setState({ favorites: this.state.favorites + 1 });
+  };
 
   render() {
     return (
       <Col className="d-flex">
         <Card style={{ width: "18rem" }}>
-          <Card.Img onClick={this.increment_favorites} variant="top" src={this.props.image_url} height={200} />
+          <Card.Img
+            onClick={this.increment_favorites}
+            variant="top"
+            src={this.props.image_url}
+            height={200}
+          />
           <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>{this.props.description}</Card.Text>
