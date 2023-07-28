@@ -17,10 +17,15 @@ class HornedBeast extends React.Component {
     this.props.set_selected_beast(this.props.beast);
   };
 
+  handle_modal = () => {
+    this.props.set_selected_beast(this.props.beast);
+    this.props.show_beast_modal();
+  };
+
   render() {
     return (
       <Col className="d-flex">
-        <Card style={{ width: "18rem" }} onClick={this.selected_beast_handler}>
+        <Card style={{ width: "18rem" }} onClick={this.handle_modal}>
           <Card.Img
             onClick={this.increment_favorites}
             variant="top"

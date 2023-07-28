@@ -15,7 +15,8 @@ class Home extends React.Component {
               description={beast.description}
               beast={beast}
               set_selected_beast={this.props.set_selected_beast}
-            />
+              show_beast_modal={this.props.show_beast_modal}
+            /> 
           ))}
         </Row>
       </Container>
