@@ -202,7 +202,7 @@ Estimate of time needed to complete: Thirty minutes
 
 Start time: 9:30pm EST
 
-Finish time:
+Finish time: 11:00pm EST
 
 Actual time needed to complete:
 
