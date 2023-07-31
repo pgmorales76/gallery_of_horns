@@ -11,6 +11,7 @@ class App extends React.Component {
     this.state = {
       beast: {},
       show_modal: false,
+      filtered_beast_data: beast_data
     };
   }
 
@@ -26,7 +27,7 @@ class App extends React.Component {
       <>
         <Header />
         <Home
-          beast_data={beast_data}
+          beast_data={this.state.filtered_beast_data}
           set_selected_beast={this.set_selected_beast}
           show_beast_modal={this.show_beast_modal}
         />
