@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import beast_data from "./beast_data.json";
 import Home from "./Home";
 import SelectedBeast from "./SelectedBeast";
+import { Form } from "react-bootstrap";
 
 class App extends React.Component {
   constructor(props) {
@@ -26,6 +27,15 @@ class App extends React.Component {
     return (
       <>
         <Header />
+
+        <Form.Select>
+          <option>All Beasts</option>
+          <option>Zero Horns (Why would there be a Horned Beast with zero Horns? CMON!)</option>
+          <option>One Horn</option>
+          <option>Two Horns</option>
+          <option>Three Horns</option>
+          <option>One Hundred Horns</option>
+        </Form.Select>
         <Home
           beast_data={this.state.filtered_beast_data}
           set_selected_beast={this.set_selected_beast}
