@@ -25,24 +25,24 @@ class App extends React.Component {
 
   update_filtered_data = (e) => {
     const targeted_beast = e.target.value;
-    console.log(targeted_beast)
-  }
+    console.log(targeted_beast);
+  };
 
-    render() {
+  render() {
     return (
       <>
         <Header />
 
         <Form.Select onChange={this.update_filtered_data}>
-          <option value={'All'}>All Beasts</option>
-          <option value={'Zero'}>
+          <option value={"All"}>All Beasts</option>
+          <option value={"Zero"}>
             Zero Horns (Why would there be a Horned Beast with zero Horns?
             CMON!)
           </option>
-          <option value={'One'}>One Horn</option>
-          <option value={'Two'}>Two Horns</option>
-          <option value={'Three'}>Three Horns</option>
-          <option value={'One Hundred'}>One Hundred Horns</option>
+          <option value={"One"}>One Horn</option>
+          <option value={"Two"}>Two Horns</option>
+          <option value={"Three"}>Three Horns</option>
+          <option value={"One Hundred"}>One Hundred Horns</option>
         </Form.Select>
         <Home
           beast_data={this.state.filtered_beast_data}
