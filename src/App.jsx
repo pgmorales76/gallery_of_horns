@@ -41,12 +41,14 @@ class App extends React.Component {
         <Header />
 
         <Form.Select onChange={this.update_filtered_data}>
+          <option>Select number of horns</option>
           <option value={"All"}>All Beasts</option>
           <option value={"1"}>One Horn</option>
           <option value={"2"}>Two Horns</option>
           <option value={"3"}>Three Horns</option>
           <option value={"100"}>One Hundred Horns</option>
         </Form.Select>
+
         <Home
           beast_data={this.state.filtered_beast_data}
           set_selected_beast={this.set_selected_beast}
