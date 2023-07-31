@@ -34,15 +34,15 @@ class App extends React.Component {
         <Header />
 
         <Form.Select onChange={this.update_filtered_data}>
-          <option>All Beasts</option>
-          <option>
+          <option value={'All'}>All Beasts</option>
+          <option value={'Zero'}>
             Zero Horns (Why would there be a Horned Beast with zero Horns?
             CMON!)
           </option>
-          <option>One Horn</option>
-          <option>Two Horns</option>
-          <option>Three Horns</option>
-          <option>One Hundred Horns</option>
+          <option value={'One'}>One Horn</option>
+          <option value={'Two'}>Two Horns</option>
+          <option value={'Three'}>Three Horns</option>
+          <option value={'One Hundred'}>One Hundred Horns</option>
         </Form.Select>
         <Home
           beast_data={this.state.filtered_beast_data}
