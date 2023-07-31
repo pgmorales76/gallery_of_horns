@@ -12,7 +12,7 @@ class App extends React.Component {
     this.state = {
       beast: {},
       show_modal: false,
-      filtered_beast_data: beast_data
+      filtered_beast_data: beast_data,
     };
   }
 
@@ -23,14 +23,22 @@ class App extends React.Component {
   set_selected_beast = (beast) =>
     this.setState({ beast: beast }, () => console.log(this.state.beast));
 
-  render() {
+  update_filtered_data = (e) => {
+    const targeted_beast = e.target.value;
+    console.log(targeted_beast)
+  }
+
+    render() {
     return (
       <>
         <Header />
 
-        <Form.Select>
+        <Form.Select onChange={this.update_filtered_data}>
           <option>All Beasts</option>
-          <option>Zero Horns (Why would there be a Horned Beast with zero Horns? CMON!)</option>
+          <option>
+            Zero Horns (Why would there be a Horned Beast with zero Horns?
+            CMON!)
+          </option>
           <option>One Horn</option>
           <option>Two Horns</option>
           <option>Three Horns</option>
