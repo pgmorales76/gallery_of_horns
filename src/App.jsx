@@ -25,7 +25,8 @@ class App extends React.Component {
 
   update_filtered_data = (e) => {
     const targeted_beast = e.target.value;
-    console.log(targeted_beast);
+    const updated_data = this.state.filtered_beast_data.filter(beast => beast.horns === targeted_beast);
+    this.setState({filtered_beast_data: updated_data});
   };
 
   render() {
