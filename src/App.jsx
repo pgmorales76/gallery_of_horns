@@ -12,7 +12,8 @@ class App extends React.Component {
     this.state = {
       beast: {},
       show_modal: false,
-      filtered_beast_data: beast_data,
+      filtered_beast_data: [],
+      all_beast_data: beast_data,
     };
   }
 
@@ -24,13 +25,16 @@ class App extends React.Component {
     this.setState({ beast: beast }, () => console.log(this.state.beast));
 
   update_filtered_data = (e) => {
+    e.preventDefault();
     const targeted_beast = e.target.value;
+    console.log(typeof(targeted_beast));
     if (targeted_beast === "All") {
       this.setState({ filtered_beast_data: beast_data });
     } else {
-      const updated_data = beast_data.filter(
-        (beast) => beast.horns === targeted_beast
+      const updated_data = this.state.all_beast_data.filter(
+        (beast) => beast.horns === parseInt(targeted_beast)
       );
+      console.log(updated_data);
       this.setState({ filtered_beast_data: updated_data });
     }
   };
