@@ -47,6 +47,7 @@ class App extends React.Component {
         <Form.Select onChange={this.update_filtered_data}>
           <option>Select number of horns</option>
           <option value={"All"}>All Beasts</option>
+          <option value={"0"}>Zero Horns</option>
           <option value={"1"}>One Horn</option>
           <option value={"2"}>Two Horns</option>
           <option value={"3"}>Three Horns</option>
