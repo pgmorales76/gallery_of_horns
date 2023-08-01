@@ -12,8 +12,8 @@ class App extends React.Component {
     this.state = {
       beast: {},
       show_modal: false,
-      filtered_beast_data: [],
       all_beast_data: beast_data,
+      filtered_beast_data: [],
     };
   }
 
@@ -27,7 +27,7 @@ class App extends React.Component {
   update_filtered_data = (e) => {
     e.preventDefault();
     const targeted_beast = e.target.value;
-    console.log(typeof(targeted_beast));
+    console.log(typeof targeted_beast);
     if (targeted_beast === "All") {
       this.setState({ filtered_beast_data: beast_data });
     } else {
